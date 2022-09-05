@@ -1,0 +1,51 @@
+#header{
+    background: linear-gradient(to bottom, #e1e1e1, #e4e4e4);
+}
+body{
+    background-color: #f0f0f0;
+}
+#mainBody, .hiddenRequest{
+    background-color: #f7f7fa;
+    border: 1px solid #6c6c6c;
+}
+fieldset, .shownRequest{
+    background-color: #e1e1e1;
+}
+#sub{
+    background-color: #f7f7fa;
+    border: 1px solid #6c6c6c;
+}
+.divRequestContent{
+
+}
+.hide{
+    border: 2px solid black;
+    background-color: #f7f7fa;
+}
+.greenStyle{
+    border: 5px solid green;
+}
+.redStyle{
+    border: 5px solid red;
+}
+#changeThemeMode{
+    border: 3px solid black;
+}
+input[type=text]{
+background-color: #e4e4e4;
+color: black;
+}
+a{
+    color: black;
+}
+*{
+    color: black;
+}
+input[type=submit]:enabled{
+    color: black;
+    background-color: white;
+}
+input[type=submit]:disabled{
+    color: gray;
+    background-color: white;
+}

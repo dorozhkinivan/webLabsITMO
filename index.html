@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div id="header"><h1 id="a">Dorozhkin Ivan / З32131 / 1208</h1></div>
+<div id="changeThemeMode" onclick="handleClickChangeColor()">
+    <img alt="image" id="toAnotherTheme">
+</div>
+<div id="mainBody">
+<div id="divInput">
+    <fieldset>
+        <legend>Enter X, Y, R values.</legend>
+        <form id="mainForm">
+
+            <label>
+                X:
+                <input type="radio" name="x" value=-3>-3
+            </label>
+            <label>
+                <input type="radio" name="x" value=-2>-2
+            </label>
+            <label>
+                <input type="radio" name="x" value=-1>-1
+            </label>
+            <label>
+                <input type="radio" name="x" value=0>0
+            </label>
+            <label>
+                <input type="radio" name="x" value=1>1
+            </label>
+            <label>
+                <input type="radio" name="x" value=2>2
+            </label>
+            <label>
+                <input type="radio" name="x" value=3>3
+            </label>
+            <label>
+                <input type="radio" name="x" value=4>4
+            </label>
+            <label>
+                <input type="radio" name="x" value=5>5
+            </label>
+            <br>
+            <br>
+            <label>
+                Y:
+                <input type="text" id="inputY" name="y">
+            </label>
+            <label id="rangeY">Range is from -3 to 5</label>
+            <br>
+            <br>
+            <label>
+                R:
+                <input type="text" id="inputR" name="r">
+            </label>
+            <label id="rangeR">Range is from 2 to 5</label>
+            <br>
+            <br>
+            <input type="submit" value="check" id="sub" disabled>
+        </form>
+    </fieldset>
+    <div id="imageXY">
+        <img id="imgXY" alt="image">
+    </div>
+</div>
+<div id="coordinates"></div>
+<div id="requests"></div>
+
+</div>
+<div id="footer">
+    <div id="divWithLink"></div>
+    <a href="https://t.me/ivanDorozhkin">@ivanDorozhkin</a>
+</div>
+<script type="module" src="JS/script.mjs"></script>
+</body>
+</html>
